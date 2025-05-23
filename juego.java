@@ -3,8 +3,7 @@ import java.util.Random;
 import java.util.Scanner;
 import java.util.ConcurrentModificationException;
 
-public class Juego { // Cambié el nombre de la clase a "Juego" para seguir las convenciones de nomenclatura de Java
-
+public class Juego { 
     private static Scanner sc = new Scanner(System.in);
     private static Random rand = new Random();
 
@@ -13,7 +12,7 @@ public class Juego { // Cambié el nombre de la clase a "Juego" para seguir las 
             System.out.println("¡Bienvenido al Space Invaders!");
             System.out.println("Introduce tu nombre: ");
             String nombre = sc.nextLine();
-            Jugador jugador = new Jugador(nombre); // Cambié el nombre de la clase a "Jugador" para seguir las convenciones de nomenclatura de Java
+            Jugador jugador = new Jugador(nombre); 
 
             Nave nave = new Nave();
             ArrayList<Meteoro> meteoros = new ArrayList<>();
